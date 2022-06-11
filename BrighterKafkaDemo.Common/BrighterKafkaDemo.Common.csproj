@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="Domain" />
+        <Folder Include="Ports\Commands" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="Paramore.Brighter">
+            <HintPath>..\..\..\.nuget\packages\paramore.brighter\9.1.2\lib\netstandard2.0\Paramore.Brighter.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+</Project>

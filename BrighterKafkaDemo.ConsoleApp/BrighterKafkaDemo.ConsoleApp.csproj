@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Confluent.Kafka" Version="1.8.2" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+        <PackageReference Include="Paramore.Brighter.Extensions.DependencyInjection" Version="9.1.2" />
+        <PackageReference Include="Paramore.Brighter.MessagingGateway.Kafka" Version="9.1.2" />
+        <PackageReference Include="Paramore.Brighter.ServiceActivator" Version="9.1.2" />
+        <PackageReference Include="Paramore.Brighter.ServiceActivator.Extensions.DependencyInjection" Version="9.1.2" />
+        <PackageReference Include="Paramore.Brighter.ServiceActivator.Extensions.Hosting" Version="9.1.2" />
+        <PackageReference Include="Terminal.Gui" Version="1.6.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BrighterKafkaDemo.Common\BrighterKafkaDemo.Common.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Ports\CommandHandler" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="appsettings.json" />
+        <Content Include="appsettings.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+</Project>

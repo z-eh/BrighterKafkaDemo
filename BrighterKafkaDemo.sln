@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrighterKafkaDemo.ConsoleApp", "BrighterKafkaDemo.ConsoleApp\BrighterKafkaDemo.ConsoleApp.csproj", "{F6237102-108C-4AB7-9975-4F7C8F0F561E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrighterKafkaDemo.Common", "BrighterKafkaDemo.Common\BrighterKafkaDemo.Common.csproj", "{ACE97A8D-4034-4E92-9C0D-109D9251A993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrighterKafkaDemo.WebApi", "BrighterKafkaDemo.WebApi\BrighterKafkaDemo.WebApi.csproj", "{F2E2E2AD-90BD-494D-8BF0-96D6687577FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6237102-108C-4AB7-9975-4F7C8F0F561E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6237102-108C-4AB7-9975-4F7C8F0F561E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6237102-108C-4AB7-9975-4F7C8F0F561E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6237102-108C-4AB7-9975-4F7C8F0F561E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE97A8D-4034-4E92-9C0D-109D9251A993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE97A8D-4034-4E92-9C0D-109D9251A993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE97A8D-4034-4E92-9C0D-109D9251A993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE97A8D-4034-4E92-9C0D-109D9251A993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E2E2AD-90BD-494D-8BF0-96D6687577FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E2E2AD-90BD-494D-8BF0-96D6687577FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E2E2AD-90BD-494D-8BF0-96D6687577FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E2E2AD-90BD-494D-8BF0-96D6687577FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
